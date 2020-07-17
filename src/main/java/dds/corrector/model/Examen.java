@@ -1,5 +1,10 @@
 package dds.corrector.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import dds.corrector.model.preguntas.AbstractPregunta;
+
 public class Examen {
 
 	private Integer puntosDelExamen = 0;
@@ -8,6 +13,8 @@ public class Examen {
 	
 	
 	private ENotaMinimaAprobar notaMinima = ENotaMinimaAprobar.NOTA_CUATRO;
+	
+	private List<AbstractPregunta> listaDePreguntas = new ArrayList<>();
 	
 	
 	public Examen() {

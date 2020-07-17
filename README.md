@@ -1,6 +1,9 @@
-# Corrector de Exámenes
+# DDS 2020
+## Corrector de Exámenes
+Autor: Emilio Guernik  
+Curso: Diseño de sistemas 2020, K3053
 
-## Decisiones de diseño
+### Decisiones de diseño
 * En principio se asume que el peso de cada pregunta es un entero, pero en realidad 
 es algo que debería ser consultado
 * Los criterios se modelaron mediante Strategies
